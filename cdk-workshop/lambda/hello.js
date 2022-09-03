@@ -1,5 +1,4 @@
 exports.handler = async function(event) {
-    console.log("event value:", event);
     console.log("request:", JSON.stringify(event, undefined, 2));
     return {
         statusCode: 200,
